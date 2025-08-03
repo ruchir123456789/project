@@ -1,0 +1,82 @@
+[
+  {
+    name: "Bella",
+    type: "Dog",
+    breed: "Labrador Retriever",
+    age: 3,
+    color: "Golden",
+    country: "USA"
+  },
+  {
+    name: "Max",
+    type: "Cat",
+    breed: "Persian",
+    age: 2,
+    color: "White",
+    country: "India"
+  },
+  {
+    name: "Charlie",
+    type: "Rabbit",
+    breed: "Dutch",
+    age: 1,
+    color: "Black & White",
+    country: "Canada"
+  },
+  {
+    name: "Luna",
+    type: "Dog",
+    breed: "German Shepherd",
+    age: 4,
+    color: "Black and Tan",
+    country: "Germany"
+  },
+  {
+    name: "Oliver",
+    type: "Bird",
+    breed: "African Grey Parrot",
+    age: 5,
+    color: "Grey",
+    country: "South Africa"
+  },
+  {
+    name: "Daisy",
+    type: "Cat",
+    breed: "Siamese",
+    age: 2,
+    color: "Cream and Brown",
+    country: "Thailand"
+  },
+  {
+    name: "Rocky",
+    type: "Dog",
+    breed: "Bulldog",
+    age: 6,
+    color: "Brindle",
+    country: "UK"
+  },
+  {
+    name: "Milo",
+    type: "Dog",
+    breed: "Beagle",
+    age: 3,
+    color: "Tri-color",
+    country: "USA"
+  },
+  {
+    name: "Coco",
+    type: "Cat",
+    breed: "Bengal",
+    age: 1,
+    color: "Spotted",
+    country: "India"
+  },
+  {
+    name: "Shadow",
+    type: "Dog",
+    breed: "Doberman",
+    age: 4,
+    color: "Black",
+    country: "Russia"
+  }
+]

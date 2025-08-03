@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="section w-screen h-20 bg-blue-500">
+        <nav class="flex items-center justify-between h-20 p-10">
+          <div class="w-60 pr-[20px] text-center">Dogdata</div>
+          <div
+            class="w-80 pl-20px text-justify flex items-center justify-around"
+          >
+            <a href="" class="mr-6 w-20">Home</a>
+            <a href="" class="mr-6 w-20">About</a>
+            <a href="" class="mr-6 w-20">Upload</a>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="sectionone flex justify-center items-center w-screen h-9/12 bg-yellow-500"
+      >
+        <form action="/profile" method="post" enctype="multipart/form-data">
+          <div>
+            <label for="fname">Name :</label><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              value="John"
+              class="outline-2 outline-offset-2 outline-blue-500"
+            /><br /><br />
+          </div>
+
+          <div>
+            <label for="lname">Type :</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              value="Doe"
+              class="outline-2 outline-offset-2 outline-blue-500"
+            /><br /><br />
+          </div>
+
+          <div>
+            <label for="lname">Breed :</label><br />
+            <input
+              type="email"
+              id="lname"
+              name="lname"
+              value="Doe"
+              class="outline-2 outline-offset-2 outline-blue-500"
+            /><br /><br />
+          </div>
+
+          <div>
+            <label for="lname">Age :</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              value="Doe"
+              class="outline-2 outline-offset-2 outline-blue-500"
+              placeholder="user/admin"
+            /><br /><br />
+          </div>
+
+          <div>
+            <label for="lname">Color :</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              value="Doe"
+              class="outline-2 outline-offset-2 outline-blue-500"
+              placeholder="user/admin"
+            /><br /><br />
+          </div>
+
+          <div>
+            <label for="lname">Country :</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              value="Doe"
+              class="outline-2 outline-offset-2 outline-blue-500"
+              placeholder="user/admin"
+            /><br /><br />
+          </div>
+
+          <input
+            type="file"
+            name="avatar"
+            class="outline-2 outline-offset-2 outline-blue-500"
+          />
+          <br /><br />
+
+          <input
+            type="submit"
+            value="Submit"
+            class="outline-2 outline-offset-2 outline-white-500"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

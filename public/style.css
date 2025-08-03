@@ -1,0 +1,80 @@
+/* <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style> */
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  /* padding: 5%; */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(135, 135, 138);
+  width: auto;
+  height: 10vh;
+  padding: 10px;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav > li {
+  list-style: none;
+}
+nav > div > li {
+  list-style: none;
+  /* margin-left: 20%; */
+  width: 100px;
+}
+
+.form {
+  border: 1px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60vw;
+  height: 80vh;
+  background-color: azure;
+  margin-left: 20vw;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+form > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 600px;
+}
+form > div > label {
+  border-bottom: 1px solid black;
+}
+
+form > div > input {
+  width: 500px;
+  overflow: hidden;
+  border: none;
+  background-color: rgb(157, 162, 162);
+}

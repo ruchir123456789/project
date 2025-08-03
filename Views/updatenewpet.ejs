@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Edit Dog Data</title>
+</head>
+<body>
+  <h1>Edit Dog Entry</h1>
+
+  <form action="/v1/api/updatedate/<%= id %>" method="POST">
+    <div>
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name"  required />
+    </div><br />
+
+    <div>
+      <label for="type">Type:</label><br />
+      <input type="text" id="type" name="type" required />
+    </div><br />
+
+    <div>
+      <label for="breed">Breed:</label><br />
+      <input type="text" id="breed" name="breed" required />
+    </div><br />
+
+    <div>
+      <label for="age">Age:</label><br />
+      <input type="number" id="age" name="age"  required  />
+    </div><br />
+
+    <div>
+      <label for="color">Color:</label><br />
+      <input type="text" id="color" name="color" required />
+    </div><br />
+
+    <div>
+      <label for="country">Country:</label><br />
+      <input type="text" id="country" name="country" x1 required />
+    </div><br />
+
+    <button type="submit">Update</button>
+  </form>
+</body>
+</html>

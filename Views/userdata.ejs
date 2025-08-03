@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pet List</title>
+    <style>
+
+
+
+    </style>
+  </head>
+  <body>
+    <h2>All Pets</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Breed</th>
+          <th>Age</th>
+          <th>Color </th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% data.forEach(pet => { %>
+        <tr>
+          <td><%= pet.id %></td>
+          <td><%= pet.name %></td>
+          <td><%= pet.type %></td>
+          <td><%= pet.breed %></td>
+          <td><%= pet.age %></td>
+          <td><%= pet.color %></td>
+          <td><%= pet.country %></td>
+          <td><%= new Date(pet.createdAt).toLocaleString() %></td>
+        </tr>
+        <% }) %>
+
+
+         <button type="submit"><a href="/v1/api/createdata">create</a></button>
+        <button type="submit"><a href="/v1/api/updatedate/">update</a></button>
+        <button type="submit"><a href="/v1/api/deletedata">delete</a></button>
+
+      </tbody>
+    </table>
+  </body>
+</html>
