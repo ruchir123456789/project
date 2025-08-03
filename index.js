@@ -1,6 +1,6 @@
 import express from "express";
 const app = express();
-import path from "path";
+// import path from "path";
 import dotenv from "dotenv";
 import { router } from "./Routes/routers.js";
 import { router as r } from "./Routes/userRoute.js";
