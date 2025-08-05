@@ -114,7 +114,7 @@ const loginController = async (req, res) => {
 
   res.cookie("token", token, {
     httpOnly: true,
-    secure: false,       // ✅ EASIEST: use false for localhost
+    secure: false,       //use false for localhost
     maxAge: 3600000,
   });
 
