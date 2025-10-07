@@ -6,11 +6,12 @@ const authuser = async (req, res, next) => {
     //get token
     // const token = req.headers["authorization"].split(" ")[1];
     const token = req.cookies.token;
-if(!token){
-  return res.status(400).send({
-    message : "tocken nottheir"
-  })
-}
+    if (!token) {
+      return res.status(400).send({
+        message: "tocken nottheir"
+      })
+    }
+    //hello again
 
     jwt.verify(token, SecretKey, (err, decoded) => {
       if (err) {
@@ -51,4 +52,4 @@ const isuser = async (req, res, next) => {
   next();
 };
 
-export { authuser, userrole , isuser };
+export { authuser, userrole, isuser };
