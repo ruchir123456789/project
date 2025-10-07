@@ -12,6 +12,13 @@ if(!token){
     message : "tocken nottheir"
   })
 }
+=======
+    if (!token) {
+      return res.status(400).send({
+        message: "tocken nottheir"
+      })
+    }
+>>>>>>> Stashed changes
 
     jwt.verify(token, SecretKey, (err, decoded) => {
       if (err) {
