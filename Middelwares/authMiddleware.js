@@ -11,7 +11,6 @@ const authuser = async (req, res, next) => {
         message: "tocken nottheir"
       })
     }
-    //hello again
     // hello
 
     jwt.verify(token, SecretKey, (err, decoded) => {
