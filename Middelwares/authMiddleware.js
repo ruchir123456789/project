@@ -11,7 +11,11 @@ const authuser = async (req, res, next) => {
         message: "tocken nottheir"
       })
     }
+<<<<<<< Updated upstream
     //hello again
+=======
+    // hello
+>>>>>>> Stashed changes
 
     jwt.verify(token, SecretKey, (err, decoded) => {
       if (err) {
