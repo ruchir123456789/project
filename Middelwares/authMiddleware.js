@@ -21,7 +21,7 @@ const authuser = async (req, res, next) => {
 
 
 
-    //change1
+    //change2
     jwt.verify(token, SecretKey, (err, decoded) => {
       if (err) {
         return res.status(401).send({
